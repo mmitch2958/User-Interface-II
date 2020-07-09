@@ -15,10 +15,6 @@ body {
   font-size: 1.5rem;
   font-family: "Nunito Sans", sans-serif;
 }
-#middle{
-  display: flex;
-  justify-content: space-between;
-}
 h1,
 h2,
 h3,
@@ -51,11 +47,8 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
-.middle{
-  display:flex;
-  
-}
 
+}
 .links {
   width: 30%;
   display: flex;
@@ -70,19 +63,18 @@ nav a:hover {
   color: #afeeee;
 }
 /* nav styles end here  */
-.mainImage {
-  /* height: 80vh; */
+.title-container {
+  height: 80vh;
   display: flex;
-  width: 2%;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-/* .main-titles {
+.main-titles {
   display:flex;
-  
+  width: 40%;
   color: #fde769;
-} */
+}
 /* End Of Header Styles */
 /* About Section Styles */
 #about {
@@ -110,30 +102,21 @@ nav a:hover {
   padding: 3% 0;
 }
 #skills .contanier {
-/*   display: flex;
-  align-content: space-between;
-  flex-direction: row;
-  width: 30%; */
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#skills .contanier div {
+  text-align: center;
+  width: 25%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
-
-.container {
-  display:flex;
-  justify-content: space-evenly;
-  
-}
-/* #skills .contanier div {
-  text-align: center;
-/*   width: 25%; */ 
-/* #skills .contanier div h3 {
+#skills .contanier div h3 {
   order: -1;
 }
 #skills .contanier div p {
   text-align: justify;
-} */
+}
 
 /* End Of Skills Section */
 /* Video Section Styles */
